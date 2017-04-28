@@ -1,7 +1,7 @@
 # Universite Hassan Premier.
-If you'd like to run it locally, and modify something, you can do so by cloning this repo and running the following commands.
+If you'd like to run it locally, and modify something, you can do so by cloning this repo and running the following commands
+install Node.js [link to Node.js](https://nodejs.org).
 ```
-install Node.js [link to Node.js](https://nodejs.org)
 node -v
 to test if it works , it will show the version of Node that you installed
 After that you may install:
