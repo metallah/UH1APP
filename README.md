@@ -1,4 +1,4 @@
-# UH1APP
+# Universite Hassan Premier.
 If you'd like to run it locally, and modify something, you can do so by cloning this repo and running the following commands.
 ```
 install Node.js [link to Node.js](https://nodejs.org)
