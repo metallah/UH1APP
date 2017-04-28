@@ -1,0 +1,51 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <!--style="background-color:#37ADDD;-->
+  <ion-side-menu side="left" id="side-menu21">
+    
+    <ion-content padding="false" class="side-menu-left has-header">
+      <div class="list card" style="height:35%;background:#0a4ec2;margin:0;padding:0;">
+        <br>
+        <div>
+          <img src="../img/f42.jpg" style="border-radius:50%;max-height:20% !important;">
+        </div>
+        <h5>Sara Doe</h5>
+        <span>sarajoe@gmail.com</span>
+      <br>
+      </div>
+      <ion-list id="menu-list1" class="manual-list-fullwidth list"> 
+        <div>
+          <ion-item class="item-icon-right positive  univeristeHassanpre" id="menu-list-item1" ui-sref="menu.motDuPresidentEtChiffre" menu-close="">Universite hassan 1
+          <i class="icon ion-ios-arrow-forward"></i>
+          <ion-option-button class="button-assertive"></ion-option-button>
+          <ion-option-button class="button-positive"></ion-option-button>
+        </ion-item>
+        </div>
+        
+        <ion-item class="item-icon-right positive item1" id="menu-list-item11" ui-sref="menu.home" menu-close="">home
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-right positive item1" id="menu-list-item4" ui-sref="menu.quoiDeNeuf" menu-close="">Quoi de neuf ?
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-right positive item1" id="menu-list-item2" ui-sref="menu.login" menu-close="">Services aux Etudiants
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-right positive  geoloca item1" id="menu-list-item3" ui-sref="menu.localisation" menu-close="">localisation
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+        <ion-item class="item-icon-right positive item1" id="menu-list-item5" ui-sref="menu.annuaireEtContact" menu-close="">Annuaire et contacts
+          <i class="icon ion-ios-arrow-forward"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
